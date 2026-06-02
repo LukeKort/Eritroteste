@@ -1,0 +1,35 @@
+Configure sua planilha do excel de forma que cada nova coluna seja um
+paciente diferente e cada linha represente um dado do exame, seguindo a 
+seguinte regra:
+
+Linha 1 - idade
+Linha 2 - sexo
+Linha 3 - hemacias
+Linha 4 - hemoglobina
+Linha 5 - hematocrito
+Linha 6 - vcm
+Linha 7 - hcm
+Linha 8 - chcm
+Linha 0 - ID do paciente
+
+Ao entrar com os dados, o programa irá fornecer os dignósticos seguindo a regra:
+
+#Coluna Anemia - resultado p/ anemia
+	
+	*Próximos de 1 - Resultado Positivo 
+	*Próximos de 0 - Resultados Negativos
+
+#Coluna Morfologia
+
+	* 1 - Microcítica
+	* 2 - Normocítica
+	* 3 - Macrocítica
+
+#Coluna Cromaticidade
+
+	* 1 - Hipocrômica
+	* 2 - Normocrômica
+	* 3 - Hipercrômica)
+
+OBS: Caso não seja detectado anemia (Coluna anemia < 0.8), o resultado final apresentará as 
+Colunas 2 e 3 com zero.
