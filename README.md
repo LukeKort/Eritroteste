@@ -1,3 +1,4 @@
+![Status: Unmaintained](https://img.shields.io/badge/status-unmaintained-red)
 ![image](https://user-images.githubusercontent.com/64225460/82570595-2f3a5200-9b58-11ea-9339-2e4a71d02a1b.png)
 
 # Eritroteste [PT-BR]
